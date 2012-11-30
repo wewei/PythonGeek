@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C9D502B1668EA530052215B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C9D502A1668EA530052215B /* UIKit.framework */; };
+		4C9D502D1668EA530052215B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C9D502C1668EA530052215B /* Foundation.framework */; };
+		4C9D502F1668EA530052215B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C9D502E1668EA530052215B /* CoreGraphics.framework */; };
+		4C9D50351668EA530052215B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C9D50331668EA530052215B /* InfoPlist.strings */; };
+		4C9D50371668EA530052215B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9D50361668EA530052215B /* main.m */; };
+		4C9D503B1668EA540052215B /* PGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9D503A1668EA540052215B /* PGAppDelegate.m */; };
+		4C9D503D1668EA540052215B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C9D503C1668EA540052215B /* Default.png */; };
+		4C9D503F1668EA540052215B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C9D503E1668EA540052215B /* Default@2x.png */; };
+		4C9D50411668EA540052215B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C9D50401668EA540052215B /* Default-568h@2x.png */; };
+		4C9D50491668EA540052215B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C9D50481668EA540052215B /* SenTestingKit.framework */; };
+		4C9D504A1668EA540052215B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C9D502A1668EA530052215B /* UIKit.framework */; };
+		4C9D504B1668EA540052215B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C9D502C1668EA530052215B /* Foundation.framework */; };
+		4C9D50531668EA540052215B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C9D50511668EA540052215B /* InfoPlist.strings */; };
+		4C9D50561668EA540052215B /* PythonGeekTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9D50551668EA540052215B /* PythonGeekTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C9D504C1668EA540052215B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C9D501D1668EA530052215B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C9D50251668EA530052215B;
+			remoteInfo = PythonGeek;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C9D50261668EA530052215B /* PythonGeek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PythonGeek.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C9D502A1668EA530052215B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4C9D502C1668EA530052215B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C9D502E1668EA530052215B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4C9D50321668EA530052215B /* PythonGeek-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PythonGeek-Info.plist"; sourceTree = "<group>"; };
+		4C9D50341668EA530052215B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C9D50361668EA530052215B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C9D50381668EA530052215B /* PythonGeek-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PythonGeek-Prefix.pch"; sourceTree = "<group>"; };
+		4C9D50391668EA530052215B /* PGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGAppDelegate.h; sourceTree = "<group>"; };
+		4C9D503A1668EA540052215B /* PGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGAppDelegate.m; sourceTree = "<group>"; };
+		4C9D503C1668EA540052215B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4C9D503E1668EA540052215B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4C9D50401668EA540052215B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4C9D50471668EA540052215B /* PythonGeekTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PythonGeekTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C9D50481668EA540052215B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4C9D50501668EA540052215B /* PythonGeekTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PythonGeekTests-Info.plist"; sourceTree = "<group>"; };
+		4C9D50521668EA540052215B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C9D50541668EA540052215B /* PythonGeekTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PythonGeekTests.h; sourceTree = "<group>"; };
+		4C9D50551668EA540052215B /* PythonGeekTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PythonGeekTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C9D50231668EA530052215B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C9D502B1668EA530052215B /* UIKit.framework in Frameworks */,
+				4C9D502D1668EA530052215B /* Foundation.framework in Frameworks */,
+				4C9D502F1668EA530052215B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C9D50431668EA540052215B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C9D50491668EA540052215B /* SenTestingKit.framework in Frameworks */,
+				4C9D504A1668EA540052215B /* UIKit.framework in Frameworks */,
+				4C9D504B1668EA540052215B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C9D501B1668EA530052215B = {
+			isa = PBXGroup;
+			children = (
+				4C9D50301668EA530052215B /* PythonGeek */,
+				4C9D504E1668EA540052215B /* PythonGeekTests */,
+				4C9D50291668EA530052215B /* Frameworks */,
+				4C9D50271668EA530052215B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C9D50271668EA530052215B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C9D50261668EA530052215B /* PythonGeek.app */,
+				4C9D50471668EA540052215B /* PythonGeekTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C9D50291668EA530052215B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C9D502A1668EA530052215B /* UIKit.framework */,
+				4C9D502C1668EA530052215B /* Foundation.framework */,
+				4C9D502E1668EA530052215B /* CoreGraphics.framework */,
+				4C9D50481668EA540052215B /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C9D50301668EA530052215B /* PythonGeek */ = {
+			isa = PBXGroup;
+			children = (
+				4C9D50391668EA530052215B /* PGAppDelegate.h */,
+				4C9D503A1668EA540052215B /* PGAppDelegate.m */,
+				4C9D50311668EA530052215B /* Supporting Files */,
+			);
+			path = PythonGeek;
+			sourceTree = "<group>";
+		};
+		4C9D50311668EA530052215B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C9D50321668EA530052215B /* PythonGeek-Info.plist */,
+				4C9D50331668EA530052215B /* InfoPlist.strings */,
+				4C9D50361668EA530052215B /* main.m */,
+				4C9D50381668EA530052215B /* PythonGeek-Prefix.pch */,
+				4C9D503C1668EA540052215B /* Default.png */,
+				4C9D503E1668EA540052215B /* Default@2x.png */,
+				4C9D50401668EA540052215B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C9D504E1668EA540052215B /* PythonGeekTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C9D50541668EA540052215B /* PythonGeekTests.h */,
+				4C9D50551668EA540052215B /* PythonGeekTests.m */,
+				4C9D504F1668EA540052215B /* Supporting Files */,
+			);
+			path = PythonGeekTests;
+			sourceTree = "<group>";
+		};
+		4C9D504F1668EA540052215B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C9D50501668EA540052215B /* PythonGeekTests-Info.plist */,
+				4C9D50511668EA540052215B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C9D50251668EA530052215B /* PythonGeek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C9D50591668EA540052215B /* Build configuration list for PBXNativeTarget "PythonGeek" */;
+			buildPhases = (
+				4C9D50221668EA530052215B /* Sources */,
+				4C9D50231668EA530052215B /* Frameworks */,
+				4C9D50241668EA530052215B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PythonGeek;
+			productName = PythonGeek;
+			productReference = 4C9D50261668EA530052215B /* PythonGeek.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C9D50461668EA540052215B /* PythonGeekTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C9D505C1668EA540052215B /* Build configuration list for PBXNativeTarget "PythonGeekTests" */;
+			buildPhases = (
+				4C9D50421668EA540052215B /* Sources */,
+				4C9D50431668EA540052215B /* Frameworks */,
+				4C9D50441668EA540052215B /* Resources */,
+				4C9D50451668EA540052215B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C9D504D1668EA540052215B /* PBXTargetDependency */,
+			);
+			name = PythonGeekTests;
+			productName = PythonGeekTests;
+			productReference = 4C9D50471668EA540052215B /* PythonGeekTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C9D501D1668EA530052215B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PG;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Wei Wei";
+			};
+			buildConfigurationList = 4C9D50201668EA530052215B /* Build configuration list for PBXProject "PythonGeek" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C9D501B1668EA530052215B;
+			productRefGroup = 4C9D50271668EA530052215B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C9D50251668EA530052215B /* PythonGeek */,
+				4C9D50461668EA540052215B /* PythonGeekTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C9D50241668EA530052215B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C9D50351668EA530052215B /* InfoPlist.strings in Resources */,
+				4C9D503D1668EA540052215B /* Default.png in Resources */,
+				4C9D503F1668EA540052215B /* Default@2x.png in Resources */,
+				4C9D50411668EA540052215B /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C9D50441668EA540052215B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C9D50531668EA540052215B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C9D50451668EA540052215B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C9D50221668EA530052215B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C9D50371668EA530052215B /* main.m in Sources */,
+				4C9D503B1668EA540052215B /* PGAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C9D50421668EA540052215B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C9D50561668EA540052215B /* PythonGeekTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C9D504D1668EA540052215B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C9D50251668EA530052215B /* PythonGeek */;
+			targetProxy = 4C9D504C1668EA540052215B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C9D50331668EA530052215B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C9D50341668EA530052215B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4C9D50511668EA540052215B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C9D50521668EA540052215B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C9D50571668EA540052215B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C9D50581668EA540052215B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C9D505A1668EA540052215B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PythonGeek/PythonGeek-Prefix.pch";
+				INFOPLIST_FILE = "PythonGeek/PythonGeek-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4C9D505B1668EA540052215B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PythonGeek/PythonGeek-Prefix.pch";
+				INFOPLIST_FILE = "PythonGeek/PythonGeek-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4C9D505D1668EA540052215B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PythonGeek.app/PythonGeek";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PythonGeek/PythonGeek-Prefix.pch";
+				INFOPLIST_FILE = "PythonGeekTests/PythonGeekTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4C9D505E1668EA540052215B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PythonGeek.app/PythonGeek";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PythonGeek/PythonGeek-Prefix.pch";
+				INFOPLIST_FILE = "PythonGeekTests/PythonGeekTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C9D50201668EA530052215B /* Build configuration list for PBXProject "PythonGeek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C9D50571668EA540052215B /* Debug */,
+				4C9D50581668EA540052215B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C9D50591668EA540052215B /* Build configuration list for PBXNativeTarget "PythonGeek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C9D505A1668EA540052215B /* Debug */,
+				4C9D505B1668EA540052215B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C9D505C1668EA540052215B /* Build configuration list for PBXNativeTarget "PythonGeekTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C9D505D1668EA540052215B /* Debug */,
+				4C9D505E1668EA540052215B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C9D501D1668EA530052215B /* Project object */;
+}
