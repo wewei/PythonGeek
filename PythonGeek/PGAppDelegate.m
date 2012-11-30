@@ -22,9 +22,8 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     
-    self.window.rootViewController = [[PGMainViewController alloc] initWithNibName:@"PGMainViewController"
-                                                                            bundle:[NSBundle mainBundle]];
-    [self.window.rootViewController release];
+    self.window.rootViewController = [[[PGMainViewController alloc] initWithNibName:@"PGMainViewController"
+                                                                            bundle:[NSBundle mainBundle]] autorelease];
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
