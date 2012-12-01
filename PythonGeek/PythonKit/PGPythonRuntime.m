@@ -10,6 +10,7 @@
 #import "Python.h"
 
 #import "PGPythonRuntime.h"
+#import "PGObjCObject.h"
 
 
 NSString * const kNotificationStdoutWritten = @"NOTIFICATION_STDOUT_WRITTEN";
@@ -53,6 +54,10 @@ static PyMethodDef stderr_methods[] = {
     {NULL, NULL, 0, NULL},
 };
 
+static PyMethodDef modulePythonGeek_methods[] = {
+    {"write", stderr_write, METH_VARARGS, "Write something"},
+    {NULL, NULL, 0, NULL},  /* Sentinel */
+};
 
 @implementation PGPythonRuntime
 
@@ -112,12 +117,21 @@ static PGPythonRuntime *_sharedRuntime = nil;
         PySys_SetObject("stderr", m);
 }
 
+- (void)createPythonGeekModule
+{
+    PyObject * m = NULL;
+    m = Py_InitModule("PythonGeek", modulePythonGeek_methods);
+    if (m)
+        AddPGObjCObjectToModule(m);
+}
+
 - (void)initializeInterpreter
 {
     [self setPythonHome];
     Py_NoSiteFlag = 1;
     Py_Initialize();
     [self overrideStreams];
+    [self createPythonGeekModule];
 }
 
 - (void)finalizeInterpreter

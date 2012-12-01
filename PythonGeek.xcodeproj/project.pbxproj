@@ -26,6 +26,8 @@
 		4C9D50CF1668EB930052215B /* PGMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9D50CD1668EB930052215B /* PGMainViewController.m */; };
 		4C9D50D01668EB930052215B /* PGMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C9D50CE1668EB930052215B /* PGMainViewController.xib */; };
 		4C9D50D41668EE2D0052215B /* PGPythonRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9D50D31668EE2D0052215B /* PGPythonRuntime.m */; };
+		4C9D50DC1669C9150052215B /* PGObjCObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9D50DB1669C9150052215B /* PGObjCObject.m */; };
+		4C9D50DF166A41A80052215B /* PGTypeConverts.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9D50DE166A41A80052215B /* PGTypeConverts.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -157,6 +159,10 @@
 		4C9D50CE1668EB930052215B /* PGMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PGMainViewController.xib; sourceTree = "<group>"; };
 		4C9D50D21668EE2D0052215B /* PGPythonRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGPythonRuntime.h; sourceTree = "<group>"; };
 		4C9D50D31668EE2D0052215B /* PGPythonRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGPythonRuntime.m; sourceTree = "<group>"; };
+		4C9D50DA1669C8960052215B /* PGObjCObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGObjCObject.h; sourceTree = "<group>"; };
+		4C9D50DB1669C9150052215B /* PGObjCObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGObjCObject.m; sourceTree = "<group>"; };
+		4C9D50DD166A41A80052215B /* PGTypeConverts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGTypeConverts.h; sourceTree = "<group>"; };
+		4C9D50DE166A41A80052215B /* PGTypeConverts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGTypeConverts.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -390,10 +396,22 @@
 		4C9D50D11668EE020052215B /* PythonKit */ = {
 			isa = PBXGroup;
 			children = (
+				4C9D50D91669B69C0052215B /* Bridge */,
 				4C9D50D21668EE2D0052215B /* PGPythonRuntime.h */,
 				4C9D50D31668EE2D0052215B /* PGPythonRuntime.m */,
 			);
 			path = PythonKit;
+			sourceTree = "<group>";
+		};
+		4C9D50D91669B69C0052215B /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				4C9D50DA1669C8960052215B /* PGObjCObject.h */,
+				4C9D50DB1669C9150052215B /* PGObjCObject.m */,
+				4C9D50DD166A41A80052215B /* PGTypeConverts.h */,
+				4C9D50DE166A41A80052215B /* PGTypeConverts.m */,
+			);
+			path = Bridge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -512,6 +530,8 @@
 				4C9D503B1668EA540052215B /* PGAppDelegate.m in Sources */,
 				4C9D50CF1668EB930052215B /* PGMainViewController.m in Sources */,
 				4C9D50D41668EE2D0052215B /* PGPythonRuntime.m in Sources */,
+				4C9D50DC1669C9150052215B /* PGObjCObject.m in Sources */,
+				4C9D50DF166A41A80052215B /* PGTypeConverts.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
